@@ -2,42 +2,41 @@ html,body{
     font-size: 100%;
     height: 100%;
     width: 100%;
-    margin:auto;
-    background-color:black;
+    background-color: black;
+
 }
 
-/* .image {
+.background {
     height: 100%;
     width:100%;
+    background-image: url("../images/hero.jpg");
     background-size:cover;
-    background-image: url("../images/ShilajDai.jpg");
-    background-position:center;
-    
-} */
+    opacity: 0.17;
+    position: absolute;
+    top:0px;
+}
 .text{
-    color: rgb(209, 200, 200);
+    color: rgb(255, 255, 255);
     margin:1rem;
     font-size: 1.73vw;
     font-variant: small-caps;
     font-family:Helvetica Neue;
-    width: 30rem;
-    height: 6rem;
+    position: relative;
+    top:10vh;
+    left:45vw;
     letter-spacing: 3px;
     /* text-align:justify; */
     text-shadow: 0.5px 0.5px rgb(209, 200, 200);
-}
-.link{
-    color: rgb(209, 200, 200);
-    
 }
 img{
     border-style:ridge;
     border-radius:100%;
     border-color:rgb(168, 150, 150);
     height: 150px;
+    opacity: 0.9;
 }
 a{
-    color: rgb(209, 200, 200);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 li{
@@ -46,10 +45,13 @@ li{
     font-variant: small-caps;
     font-family:Helvetica Neue;
     padding: 15px;
-    text-shadow: 0.5px 0.5px rgb(209, 200, 200);
+    text-shadow: 0.5px 0.5px rgb(255, 255, 255);
 
 }
 ul{
+    position: fixed;
     list-style-type:none;
     word-spacing: 3px;
+    top:0px;
+    left:75vw;
 }
