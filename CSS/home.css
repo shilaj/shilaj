@@ -7,33 +7,32 @@ html,body{
 }
 
 .background {
-    height: 100%;
-    width:100%;
+    height: 100vh;
+    width:100vw;
     background-image: url("../images/hero.jpg");
     background-size:cover;
     opacity: 0.17;
     position: absolute;
-    top:0px;
+    top:0vw;
 }
 .text{
     color: rgb(255, 255, 255);
     margin:1rem;
-    font-size: 1.73vw;
+    font-size: 3vw;
     font-variant: small-caps;
     font-family:Helvetica Neue;
     position: relative;
-    top:10vh;
-    left:45vw;
+    top:40vh;
+    left:30vw;
     letter-spacing: 3px;
-    /* text-align:justify; */
     text-shadow: 0.5px 0.5px rgb(209, 200, 200);
 }
 img{
     border-style:ridge;
     border-radius:100%;
     border-color:rgb(168, 150, 150);
-    height: 150px;
-    opacity: 0.9;
+    height: 5vw;
+    position: fixed;
 }
 a{
     color: rgb(255, 255, 255);
@@ -41,17 +40,17 @@ a{
 }
 li{
     float:right;
-    font-size: 1.73vw;
+    font-size: 2vw;
     font-variant: small-caps;
     font-family:Helvetica Neue;
-    padding: 15px;
-    text-shadow: 0.5px 0.5px rgb(255, 255, 255);
+    padding: 20px;
+    text-shadow: 1px 1px rgb(255, 196, 0);
 
 }
 ul{
     position: fixed;
     list-style-type:none;
-    word-spacing: 3px;
+    word-spacing: 5px;
     top:0px;
-    left:75vw;
+    left:70vw;
 }
